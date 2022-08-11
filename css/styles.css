@@ -11,6 +11,8 @@ body {
     background-color: hsl(216, 12%, 8%);
 }
 
+/* TYPOGRAPHY */
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
@@ -26,6 +28,15 @@ p {
     color: hsl(217, 12%, 63%);
     font-size: 15px;
 }
+
+.text {
+    width: 35ch;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+/* BUTTON */
 
 .btn {
     color: #fff;
@@ -48,6 +59,8 @@ p {
     cursor: pointer;
 }
 
+/* CARD STYLING */
+
 section {
     display: flex;
     justify-content: center;
@@ -61,18 +74,15 @@ section {
     border-radius: 2rem;
 }
 
-.text {
-    width: 35ch;
-    margin-top: .7rem;
-    margin-bottom: 1rem;
-    line-height: 1.4;
-}
+/* IMAGE */
 
 .star {
     background-color: hsl(213, 19%, 25%);
     padding: .7rem;
     border-radius: 100vh;
 }
+
+/* NUMBERS */
 
 .numbers {
     display: flex;
@@ -95,6 +105,8 @@ section {
     cursor: pointer;
 }
 
+/* CARD-THANKING */
+
 .card-thanking {
     text-align: center;
 }
@@ -109,7 +121,7 @@ section {
     border-radius: 100vh;
 }
 
-/*-----------------------------*/
+/* JAVA-SCRIPT STYLING */
 
 .clicked,
 .clicked:hover {
