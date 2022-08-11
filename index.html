@@ -11,33 +11,34 @@
 
 </head>
 <body>
-  <section class="visible">
-    <div class="card card-rating">
-      <img src="images/icon-star.svg" alt="" class="star">
-      <h2>How did we do?</h2>
-      <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      <div class="numbers not-chosen">
-        <button class="number">1</button>
-        <button class="number">2</button>
-        <button class="number">3</button>
-        <button class="number">4</button>
-        <button class="number">5</button>
+  <main>
+    <section class="visible">
+      <div class="card card-rating">
+        <img src="images/icon-star.svg" alt="" class="star">
+        <h1>How did we do?</h1>
+        <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        <div class="numbers not-chosen">
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="number">4</button>
+          <button class="number">5</button>
+        </div>
+        <button class="btn">Submit</button>
+        <p class="warning">You have to choose your rating!</p>
       </div>
-      <button class="btn">Submit</button>
-      <p class="warning">You have to choose your rating!</p>
-    </div>
-  </section>
+    </section>
+    <section class="hidden">
+      <div class="card card-thanking hidden" >
+        <img src="images/illustration-thank-you.svg" alt="">
+        <p class="rating">You selected <!-- Add rating here --> out of 5</p>
+        <h2 class="text-center">Thank you!</h2>
+        <p class="text text-center">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+      </div>
+    </section>
+  </main>
 
-  <section class="hidden">
-    <div class="card card-thanking hidden" >
-      <img src="images/illustration-thank-you.svg" alt="">
-      <p class="rating">You selected <!-- Add rating here --> out of 5</p>
-      <h2 class="text-center">Thank you!</h2>
-      <p class="text text-center">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
-    </div>
-  </section>
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>
